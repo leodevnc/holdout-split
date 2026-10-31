@@ -1,0 +1,8 @@
+{"id":"deploy-1","input":"Which approval is required before deployment?","expected":{"tool":"read_policy"},"conversation_id":"thread-deploy","source_ids":["deploy-policy"]}
+{"id":"deploy-2","input":"Who can approve that deployment?","expected":{"tool":"read_policy"},"conversation_id":"thread-deploy","source_ids":["approval-roles"]}
+{"id":"deploy-3","input":"List the deployment approvers.","expected":{"tool":"read_policy"},"source_ids":["approval-roles"]}
+{"id":"refund-1","input":"Find the refund procedure.","expected":{"tool":"search_docs"},"source_ids":["refund-policy"]}
+{"id":"refund-2","input":"  FIND   THE REFUND PROCEDURE.  ","expected":{"tool":"search_docs"}}
+{"id":"calendar-1","input":"Find an available meeting time.","expected":{"tool":"read_calendar"},"source_ids":["calendar-guide"]}
+{"id":"search-1","input":"장애 대응 절차를 찾아줘.","expected":{"tool":"search_docs"},"source_ids":["incident-runbook"]}
+{"id":"status-1","input":"Show the background job status.","expected":{"tool":"get_job"},"source_ids":["job-guide"]}
